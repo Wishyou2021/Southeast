@@ -61,25 +61,25 @@ def OrlandoMagic_map():
     folium_static(AmwayCenter)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Spectrum Center.jpeg')       
+        image = Image.open('Amway Center.jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Spectrum Center1.jpeg')
+        image1 =Image.open('Amway Center1.jpeg')
         st.image(image1)
     st.write('地址：400 W Church St Suite 200, Orlando, FL 32801美國,觀眾席數：18,846席')
-def CharlotteHornets_map():
-    st.header('主場:光譜中心')
-    SpectrumCenter= folium.Map(location=[35.22528408738218, -80.83934793137779], zoom_start=16)
+def WashingtonWizards_map():
+    st.header('主場:第一資本競技館')
+    CapitalOneArena= folium.Map(location=[38.89830942692672, -77.02088898904876], zoom_start=16)
         # add marker for Liberty Bell
-    tooltip = "光譜中心"
-    folium.Marker([35.22528408738218, -80.83934793137779], popup="光譜中心", tooltip=tooltip
-    ).add_to(SpectrumCenter)
-    folium_static(SpectrumCenter)
+    tooltip = "第一資本競技館"
+    folium.Marker([38.89830942692672, -77.02088898904876], popup="第一資本競技館", tooltip=tooltip
+    ).add_to(CapitalOneArena)
+    folium_static(CapitalOneArena)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Spectrum Center.jpeg')       
+        image = Image.open('Capital One Arena.jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Spectrum Center1.jpeg')
+        image1 =Image.open('Capital One Arena1.jpeg')
         st.image(image1)
-    st.write('地址：333 E Trade St, Charlotte, NC 28202美國,觀眾席數：20,200席')
+    st.write('地址：601 F St NW, Washington, DC 20004美國,觀眾席數：20,356席')
