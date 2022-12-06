@@ -33,7 +33,7 @@ def CharlotteHornets():
 def MiamiHeat():
   col1, col2 = st.columns(2)
   with col1:
-    image = Image.open('Atlanta_Hawks.png')
+    image = Image.open('Miami Heat.png')
     st.image(image) 
   with col2:
      st.title('Miami Heat')
