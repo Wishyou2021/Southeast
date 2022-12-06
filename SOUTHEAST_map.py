@@ -48,7 +48,7 @@ def MiamiHeat_map():
         image = Image.open('FTX Arena.jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('FTX Arena1.jpeg')
+        image1 =Image.open('FTX Arena1.jpg')
         st.image(image1)
     st.write('地址：601 Biscayne Blvd, Miami, FL 33132美國,觀眾席數：19,600席')
 def OrlandoMagic_map():
