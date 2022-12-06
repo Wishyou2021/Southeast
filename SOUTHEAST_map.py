@@ -2,36 +2,84 @@ import streamlit as st
 import folium 
 from PIL import Image  
 from streamlit_folium import folium_static 
-def BostonCeltics_map():
-    st.header('主場:TD花園')
-    TDGarden= folium.Map(location=[42.36622394101576, -71.06214665765047], zoom_start=16)
+def AtlantaHawks_map():
+    st.header('主場:州立農業球館')
+    StateFarmArena= folium.Map(location=[33.75737827997708, -84.39633513151331], zoom_start=16)
         # add marker for Liberty Bell
-    tooltip = "TD花園"
-    folium.Marker([42.36622394101576, -71.06214665765047], popup="TD花園", tooltip=tooltip
-    ).add_to(TDGarden)
-    folium_static(TDGarden)
+    tooltip = "州立農業球館"
+    folium.Marker([33.75737827997708, -84.39633513151331], popup="州立農業球館", tooltip=tooltip
+    ).add_to(StateFarmArena)
+    folium_static(StateFarmArena)
     col1, col2 = st.columns(2)
     with col1:
-        image = Image.open('Home/TD Garden.jpg')
+        image = Image.open('State Farm Arena.jpeg')
         st.image(image)        
     with col2:        
-        image1 = Image.open('Home/TD Garden1.jpg')
+        image1 = Image.open('State Farm Arena1.jpeg')
         st.image(image1)
-    st.write('地址：100 Legends Way, Boston, MA 02114美國,觀眾席數：18624席')
+    st.write('地址：1 State Farm Dr, Atlanta, GA 30303美國,觀眾席數：18,371席')
   
-def BrooklynNets_map():
-    st.header('主場:巴克萊中心')
-    BarclaysCenter= folium.Map(location=[40.682725423383374, -73.97526212020857], zoom_start=16)
+def CharlotteHornets_map():
+    st.header('主場:光譜中心')
+    SpectrumCenter= folium.Map(location=[35.22528408738218, -80.83934793137779], zoom_start=16)
         # add marker for Liberty Bell
-    tooltip = "巴克萊中心"
-    folium.Marker([40.682725423383374, -73.97526212020857], popup="巴克萊中心", tooltip=tooltip
-    ).add_to(BarclaysCenter)
-    folium_static(BarclaysCenter)
+    tooltip = "光譜中心"
+    folium.Marker([35.22528408738218, -80.83934793137779], popup="光譜中心", tooltip=tooltip
+    ).add_to(SpectrumCenter)
+    folium_static(SpectrumCenter)
     col1, col2 = st.columns(2)
     with col1:          
-        image = Image.open('Home/Barclays Center.jpg')       
+        image = Image.open('Spectrum Center.jpeg')       
         st.image(image)
     with col2:
-        image1 =Image.open('Home/Barclays Center1.jpg')
+        image1 =Image.open('Spectrum Center1.jpeg')
         st.image(image1)
-    st.write('地址：620 Atlantic Ave, Brooklyn, NY 11217美國,觀眾席數：17732席')
+    st.write('地址：333 E Trade St, Charlotte, NC 28202美國,觀眾席數：20,200席')
+def MiamiHeat_map():
+    st.header('主場:FTX球館')
+    FTXArena= folium.Map(location=[25.781565618522425, -80.18702264697642], zoom_start=16)
+        # add marker for Liberty Bell
+    tooltip = "FTX球館"
+    folium.Marker([25.781565618522425, -80.18702264697642], popup="FTX球館", tooltip=tooltip
+    ).add_to(FTXArena)
+    folium_static(FTXArena)
+    col1, col2 = st.columns(2)
+    with col1:          
+        image = Image.open('FTX Arena.jpeg')       
+        st.image(image)
+    with col2:
+        image1 =Image.open('FTX Arena1.jpeg')
+        st.image(image1)
+    st.write('地址：601 Biscayne Blvd, Miami, FL 33132美國,觀眾席數：19,600席')
+def OrlandoMagic_map():
+    st.header('主場:安麗中心')
+    AmwayCenter= folium.Map(location=[28.539343909610295, -81.38387496040187], zoom_start=16)
+        # add marker for Liberty Bell
+    tooltip = "安麗中心"
+    folium.Marker([28.539343909610295, -81.38387496040187], popup="安麗中心", tooltip=tooltip
+    ).add_to(AmwayCenter)
+    folium_static(AmwayCenter)
+    col1, col2 = st.columns(2)
+    with col1:          
+        image = Image.open('Spectrum Center.jpeg')       
+        st.image(image)
+    with col2:
+        image1 =Image.open('Spectrum Center1.jpeg')
+        st.image(image1)
+    st.write('地址：400 W Church St Suite 200, Orlando, FL 32801美國,觀眾席數：18,846席')
+def CharlotteHornets_map():
+    st.header('主場:光譜中心')
+    SpectrumCenter= folium.Map(location=[35.22528408738218, -80.83934793137779], zoom_start=16)
+        # add marker for Liberty Bell
+    tooltip = "光譜中心"
+    folium.Marker([35.22528408738218, -80.83934793137779], popup="光譜中心", tooltip=tooltip
+    ).add_to(SpectrumCenter)
+    folium_static(SpectrumCenter)
+    col1, col2 = st.columns(2)
+    with col1:          
+        image = Image.open('Spectrum Center.jpeg')       
+        st.image(image)
+    with col2:
+        image1 =Image.open('Spectrum Center1.jpeg')
+        st.image(image1)
+    st.write('地址：333 E Trade St, Charlotte, NC 28202美國,觀眾席數：20,200席')
