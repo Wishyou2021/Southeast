@@ -8,7 +8,7 @@ def AtlantaHawks_Star():
   st.header('Atlanta Hawks三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
-    option=st.selectbox('選擇球星？',['Bill Russell', 'Larry Bird', 'Paul Pierce'])
+    option=st.selectbox('選擇球星？',['Bob Pettit', 'Dikembe Mutombo', 'Jamal Crawford'])
     if option=='Bill Russell':
       new_df = df[0:1]
       st.dataframe(new_df)
@@ -32,7 +32,7 @@ def CharlotteHornets_Star():
   st.header('Charlotte Hornets三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
-    option=st.selectbox('選擇球星？',['Julius Erving', 'Jason Kidd', 'Derrick Coleman'])
+    option=st.selectbox('選擇球星？',['Kemba Walker', 'Dell Curry', 'Larry Johnson'])
     if option=='Julius Erving':
       new_df = df[5:6]
       st.dataframe(new_df)
@@ -56,7 +56,7 @@ def MiamiHeat_Star():
   st.header('Miami Heat三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
-    option=st.selectbox('選擇球星？',['Walt Frazier', 'Patrick Ewing', 'Willis Reed'])
+    option=st.selectbox('選擇球星？',['Alonzo Mourning', 'Dwyane Wade', 'LeBron James'])
     if option=='Walt Frazier':
       new_df = df[9:10]
       st.dataframe(new_df)
@@ -80,7 +80,7 @@ def OrlandoMagic_Star():
   st.header('Orlando Magic三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
-    option=st.selectbox('選擇球星？',['Walt Frazier', 'Patrick Ewing', 'Willis Reed'])
+    option=st.selectbox('選擇球星？',['Dwight Howard', 'Darrell Armstrong', 'Shaquille ONeal'])
     if option=='Walt Frazier':
       new_df = df[9:10]
       st.dataframe(new_df)
@@ -104,7 +104,7 @@ def WashingtonWizards_Star():
   st.header('Washington Wizards三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
-    option=st.selectbox('選擇球星？',['Walt Frazier', 'Patrick Ewing', 'Willis Reed'])
+    option=st.selectbox('選擇球星？',['Wes Unseld', 'Elvin Hayes', 'Earl Monroe'])
     if option=='Walt Frazier':
       new_df = df[9:10]
       st.dataframe(new_df)
