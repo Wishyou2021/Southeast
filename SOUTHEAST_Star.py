@@ -3,9 +3,9 @@ from PIL import Image
 import pandas as pd
 import xlrd  
 import openpyxl
-df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H") 
+df = pd.read_excel("SOUTHEAST_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H") 
 def AtlantaHawks_Star():
-  st.header('Boston Celtics三大傳奇球星')
+  st.header('Atlanta Hawks三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Bill Russell', 'Larry Bird', 'Paul Pierce'])
@@ -29,7 +29,7 @@ def AtlantaHawks_Star():
       image = Image.open('star/Paul Pierce.jpg')
       st.image(image)
 def CharlotteHornets_Star():
-  st.header('Brooklyn Nets三大傳奇球星')
+  st.header('Charlotte Hornets三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Julius Erving', 'Jason Kidd', 'Derrick Coleman'])
@@ -53,7 +53,7 @@ def CharlotteHornets_Star():
       image = Image.open('star/Derrick Coleman.jpg')
       st.image(image)
 def MiamiHeat_Star():
-  st.header('New York Knicks三大傳奇球星')
+  st.header('Miami Heat三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Walt Frazier', 'Patrick Ewing', 'Willis Reed'])
@@ -77,7 +77,7 @@ def MiamiHeat_Star():
       image = Image.open('star/Willis Reed.jpg')
       st.image(image)
 def OrlandoMagic_Star():
-  st.header('New York Knicks三大傳奇球星')
+  st.header('Orlando Magic三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Walt Frazier', 'Patrick Ewing', 'Willis Reed'])
@@ -101,7 +101,7 @@ def OrlandoMagic_Star():
       image = Image.open('star/Willis Reed.jpg')
       st.image(image)
 def WashingtonWizards_Star():
-  st.header('New York Knicks三大傳奇球星')
+  st.header('Washington Wizards三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Walt Frazier', 'Patrick Ewing', 'Willis Reed'])
