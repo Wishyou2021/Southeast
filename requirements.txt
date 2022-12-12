@@ -1,2 +1,4 @@
-
+xlrd 
+openpyxl
 streamlit-folium
+pandas
