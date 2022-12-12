@@ -4,7 +4,7 @@ import pandas as pd
 import xlrd  
 import openpyxl
 df = pd.read_excel("star/Atlantic_Central_Star.xlsx",sheet_name="工作表1",usecols="A:H") 
-def BostonCeltics_Star():
+def AtlantaHawks_Star():
   st.header('Boston Celtics三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
@@ -28,7 +28,7 @@ def BostonCeltics_Star():
     if option=='Paul Pierce':
       image = Image.open('star/Paul Pierce.jpg')
       st.image(image)
-def BrooklynNets_star():
+def CharlotteHornets_Star():
   st.header('Brooklyn Nets三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
@@ -52,7 +52,7 @@ def BrooklynNets_star():
     if option=='Derrick Coleman':
       image = Image.open('star/Derrick Coleman.jpg')
       st.image(image)
-def NewYorkKnicks_star():
+def MiamiHeat_Star():
   st.header('New York Knicks三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
@@ -76,6 +76,52 @@ def NewYorkKnicks_star():
     if option=='Willis Reed':
       image = Image.open('star/Willis Reed.jpg')
       st.image(image)
-    
-  
+def OrlandoMagic_Star():
+  st.header('New York Knicks三大傳奇球星')
+  col1, col2 = st.columns(2)
+  with col1:
+    option=st.selectbox('選擇球星？',['Walt Frazier', 'Patrick Ewing', 'Willis Reed'])
+    if option=='Walt Frazier':
+      new_df = df[9:10]
+      st.dataframe(new_df)
+    if option=='Patrick Ewing':
+      new_df = df[10:11]
+      st.dataframe(new_df)
+    if option=='Willis Reed':
+      new_df = df[11:12]
+      st.dataframe(new_df)
+  with col2:
+    if option=='Walt Frazier':
+      image = Image.open('star/Walt Frazier.jpg')
+      st.image(image)
+    if option=='Patrick Ewing':
+      image = Image.open('star/Patrick Ewing.jpg')
+      st.image(image)
+    if option=='Willis Reed':
+      image = Image.open('star/Willis Reed.jpg')
+      st.image(image)
+def WashingtonWizards_Star():
+  st.header('New York Knicks三大傳奇球星')
+  col1, col2 = st.columns(2)
+  with col1:
+    option=st.selectbox('選擇球星？',['Walt Frazier', 'Patrick Ewing', 'Willis Reed'])
+    if option=='Walt Frazier':
+      new_df = df[9:10]
+      st.dataframe(new_df)
+    if option=='Patrick Ewing':
+      new_df = df[10:11]
+      st.dataframe(new_df)
+    if option=='Willis Reed':
+      new_df = df[11:12]
+      st.dataframe(new_df)
+  with col2:
+    if option=='Walt Frazier':
+      image = Image.open('star/Walt Frazier.jpg')
+      st.image(image)
+    if option=='Patrick Ewing':
+      image = Image.open('star/Patrick Ewing.jpg')
+      st.image(image)
+    if option=='Willis Reed':
+      image = Image.open('star/Willis Reed.jpg')
+      st.image(image) 
       
