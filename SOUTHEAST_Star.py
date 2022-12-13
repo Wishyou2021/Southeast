@@ -98,7 +98,7 @@ def OrlandoMagic_Star():
       image = Image.open('Darrell Armstrong.jpg')
       st.image(image)
     if option=='Shaquille ONeal':
-      image = Image.open('Shaquille O'Neal.jpg')
+      image = Image.open('Shaquille ONeal.jpg')
       st.image(image)
 def WashingtonWizards_Star():
   st.header('Washington Wizards三大傳奇球星')
