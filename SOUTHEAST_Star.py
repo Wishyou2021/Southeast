@@ -34,13 +34,13 @@ def CharlotteHornets_Star():
   with col1:
     option=st.selectbox('選擇球星？',['Kemba Walker', 'Dell Curry', 'Larry Johnson'])
     if option=='Kemba Walker':
-      new_df = df[3:4]
-      st.dataframe(new_df)
-    if option=='Dell Curry':
       new_df = df[4:5]
       st.dataframe(new_df)
-    if option=='Larry Johnson':
+    if option=='Dell Curry':
       new_df = df[5:6]
+      st.dataframe(new_df)
+    if option=='Larry Johnson':
+      new_df = df[6:7]
       st.dataframe(new_df)
   with col2:
     if option=='Kemba Walker':
@@ -58,13 +58,13 @@ def MiamiHeat_Star():
   with col1:
     option=st.selectbox('選擇球星？',['Alonzo Mourning', 'Dwyane Wade', 'LeBron James'])
     if option=='Alonzo Mourning':
-      new_df = df[6:7]
+      new_df = df[8:9]
       st.dataframe(new_df)
     if option=='Dwyane Wade':
-      new_df = df[7:8]
+      new_df = df[9:10]
       st.dataframe(new_df)
     if option=='LeBron James':
-      new_df = df[8:9]
+      new_df = df[10:11]
       st.dataframe(new_df)
   with col2:
     if option=='Alonzo Mourning':
@@ -82,13 +82,13 @@ def OrlandoMagic_Star():
   with col1:
     option=st.selectbox('選擇球星？',['Dwight Howard', 'Darrell Armstrong', 'Shaquille ONeal'])
     if option=='Dwight Howard':
-      new_df = df[9:10]
+      new_df = df[12:13]
       st.dataframe(new_df)
     if option=='Darrell Armstrong':
-      new_df = df[10:11]
+      new_df = df[13:14]
       st.dataframe(new_df)
     if option=='Shaquille ONeal':
-      new_df = df[11:12]
+      new_df = df[14:15]
       st.dataframe(new_df)
   with col2:
     if option=='Dwight Howard':
@@ -106,13 +106,13 @@ def WashingtonWizards_Star():
   with col1:
     option=st.selectbox('選擇球星？',['Wes Unseld', 'Elvin Hayes', 'Earl Monroe'])
     if option=='Wes Unseld':
-      new_df = df[12:13]
+      new_df = df[16:17]
       st.dataframe(new_df)
     if option=='Elvin Hayes':
-      new_df = df[13:14]
+      new_df = df[17:18]
       st.dataframe(new_df)
     if option=='Earl Monroe':
-      new_df = df[14:15]
+      new_df = df[18:19]
       st.dataframe(new_df)
   with col2:
     if option=='Wes Unseld':
