@@ -9,119 +9,119 @@ def AtlantaHawks_Star():
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Bob Pettit', 'Dikembe Mutombo', 'Jamal Crawford'])
-    if option=='Bill Russell':
+    if option=='Bob Pettit':
       new_df = df[0:1]
       st.dataframe(new_df)
-    if option=='Larry Bird':
+    if option=='Dikembe Mutombo':
       new_df = df[1:2]
       st.dataframe(new_df)
-    if option=='Paul Pierce':
+    if option=='Jamal Crawford':
       new_df = df[2:3]
       st.dataframe(new_df)
   with col2:
-    if option=='Bill Russell':
-      image = Image.open('star/Bill Russell.jpg')
+    if option=='Bob Pettit':
+      image = Image.open('Bob Pettit.jpg')
       st.image(image)
-    if option=='Larry Bird':
-      image = Image.open('star/Larry Bird.jpg')
+    if option=='Dikembe Mutombo':
+      image = Image.open('Dikembe Mutombo.jpg')
       st.image(image)
-    if option=='Paul Pierce':
-      image = Image.open('star/Paul Pierce.jpg')
+    if option=='Jamal Crawford':
+      image = Image.open('Jamal Crawford.jpg')
       st.image(image)
 def CharlotteHornets_Star():
   st.header('Charlotte Hornets三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Kemba Walker', 'Dell Curry', 'Larry Johnson'])
-    if option=='Julius Erving':
+    if option=='Kemba Walker':
       new_df = df[5:6]
       st.dataframe(new_df)
-    if option=='Jason Kidd':
+    if option=='Dell Curry':
       new_df = df[6:7]
       st.dataframe(new_df)
-    if option=='Derrick Coleman':
+    if option=='Larry Johnson':
       new_df = df[7:8]
       st.dataframe(new_df)
   with col2:
-    if option=='Julius Erving':
-      image = Image.open('star/Julius Erving.jpg')
+    if option=='Kemba Walker':
+      image = Image.open('Kemba Walker.jpg')
       st.image(image)
-    if option=='Jason Kidd':
-      image = Image.open('star/Jason Kidd.jpg')
+    if option=='Dell Curry':
+      image = Image.open('Dell Curry.jpg')
       st.image(image)
-    if option=='Derrick Coleman':
-      image = Image.open('star/Derrick Coleman.jpg')
+    if option=='Larry Johnson':
+      image = Image.open('Larry Johnson.jpg')
       st.image(image)
 def MiamiHeat_Star():
   st.header('Miami Heat三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Alonzo Mourning', 'Dwyane Wade', 'LeBron James'])
-    if option=='Walt Frazier':
+    if option=='Alonzo Mourning':
       new_df = df[9:10]
       st.dataframe(new_df)
-    if option=='Patrick Ewing':
+    if option=='Dwyane Wade':
       new_df = df[10:11]
       st.dataframe(new_df)
-    if option=='Willis Reed':
+    if option=='LeBron James':
       new_df = df[11:12]
       st.dataframe(new_df)
   with col2:
-    if option=='Walt Frazier':
-      image = Image.open('star/Walt Frazier.jpg')
+    if option=='Alonzo Mourning':
+      image = Image.open('Alonzo Mourning.jpg')
       st.image(image)
-    if option=='Patrick Ewing':
-      image = Image.open('star/Patrick Ewing.jpg')
+    if option=='Dwyane Wade':
+      image = Image.open('Dwyane Wade.jpg')
       st.image(image)
-    if option=='Willis Reed':
-      image = Image.open('star/Willis Reed.jpg')
+    if option=='LeBron James':
+      image = Image.open('LeBron James.jpg')
       st.image(image)
 def OrlandoMagic_Star():
   st.header('Orlando Magic三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Dwight Howard', 'Darrell Armstrong', 'Shaquille ONeal'])
-    if option=='Walt Frazier':
+    if option=='Dwight Howard':
       new_df = df[9:10]
       st.dataframe(new_df)
-    if option=='Patrick Ewing':
+    if option=='Darrell Armstrong':
       new_df = df[10:11]
       st.dataframe(new_df)
-    if option=='Willis Reed':
+    if option=='Shaquille ONeal':
       new_df = df[11:12]
       st.dataframe(new_df)
   with col2:
-    if option=='Walt Frazier':
-      image = Image.open('star/Walt Frazier.jpg')
+    if option=='Dwight Howard':
+      image = Image.open('Dwight Howard.jpg')
       st.image(image)
-    if option=='Patrick Ewing':
-      image = Image.open('star/Patrick Ewing.jpg')
+    if option=='Darrell Armstrong':
+      image = Image.open('Darrell Armstrong.jpg')
       st.image(image)
-    if option=='Willis Reed':
-      image = Image.open('star/Willis Reed.jpg')
+    if option=='Shaquille ONeal':
+      image = Image.open('Shaquille O'Neal.jpg')
       st.image(image)
 def WashingtonWizards_Star():
   st.header('Washington Wizards三大傳奇球星')
   col1, col2 = st.columns(2)
   with col1:
     option=st.selectbox('選擇球星？',['Wes Unseld', 'Elvin Hayes', 'Earl Monroe'])
-    if option=='Walt Frazier':
+    if option=='Wes Unseld':
       new_df = df[9:10]
       st.dataframe(new_df)
-    if option=='Patrick Ewing':
+    if option=='Elvin Hayes':
       new_df = df[10:11]
       st.dataframe(new_df)
-    if option=='Willis Reed':
+    if option=='Earl Monroe':
       new_df = df[11:12]
       st.dataframe(new_df)
   with col2:
-    if option=='Walt Frazier':
-      image = Image.open('star/Walt Frazier.jpg')
+    if option=='Wes Unseld':
+      image = Image.open('Wes Unseld.jpg')
       st.image(image)
-    if option=='Patrick Ewing':
-      image = Image.open('star/Patrick Ewing.jpg')
+    if option=='Elvin Hayes':
+      image = Image.open('Earl Monroe.jpg')
       st.image(image)
-    if option=='Willis Reed':
-      image = Image.open('star/Willis Reed.jpg')
+    if option=='Earl Monroe':
+      image = Image.open('Elvin Hayes.jpg')
       st.image(image) 
       
